@@ -8,9 +8,9 @@ const navigate = useNavigate()
 const {user, isAuthenticated, logout} = useAuth();
 
 // ? Replace this with a handleLogout function which calls logout AND navigates to home page or login page.
-useEffect(()=>{
-    if (!isAuthenticated) navigate('/', {replace: true})
-})
+// useEffect(()=>{
+//     if (!isAuthenticated) navigate('/', {replace: true})
+// })
 
     return (
         <div>
